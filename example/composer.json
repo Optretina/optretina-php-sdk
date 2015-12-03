@@ -1,0 +1,16 @@
+{
+    "name": "optretina/optretina-php-sdk",
+    "description": "OPTretina SDK is a PHP client library to work with OPTRETINA REST API",
+    "type": "project",
+    "keywords": ["sdk", "php", "api"],
+    "authors": [
+        {
+            "name": "OPTRetina Dev Team",
+            "email": "info@optretina.com",
+            "homepage": "http://www.optretina.com"
+        }
+    ],
+    "require": {
+       "league/oauth2-client": "0.3.*"
+    }
+}
