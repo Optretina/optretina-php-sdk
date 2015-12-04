@@ -73,7 +73,7 @@ Get a report for a specific case. Output as code string in base64.
 
 - Requires authentication
 - HTTP Method: GET
-- URL: https://api.optretina.com//cases/report/{id}
+- URL: https://api.optretina.com/cases/report/{id}
 
 ### Example
 
