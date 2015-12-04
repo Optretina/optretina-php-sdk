@@ -6,6 +6,7 @@ The OPTRETINA REST API  package is meant to provide you, the developer, with a s
 
 This package provides tools for the following:
 
+- Authentication
 - Retrieve a list of cases
 - Get a single case
 - Get a report for a specific case
@@ -17,6 +18,34 @@ Install the latest version with
 
 ```bash
 $ composer require optretina/optretina-php-sdk
+```
+
+## Authentication
+The OAuth2 authorization method.
+
+### Request
+
+- HTTP Method: POST
+- URL: https://api.optretina.com/authorize
+- Params: [ client_id, client_secret, grant_type="client_credentials" ]
+- Return: access_token
+
+### Example
+
+```
+#!bash
+curl -H 'Content-Type: application/json' -X POST -d '{"client_id": "XXXXX", "client_secret": "XXXX", grant_type="client_credentials"}' https://api.optretina.com/authorize
+
+```
+### Example with SDK
+
+```
+#!php
+
+define("CLIENT_ID", "CLIENT_ID_XXX");
+define("CLIENT_SECRET", "CLIENT_SECRET_XXX");
+
+$client = new Optretina\Api\Client(CLIENT_ID, CLIENT_SECRET);
 ```
 
 # Documentation
