@@ -186,6 +186,7 @@ $response = $client->createCase([
     'os_add' => 3.5,
     'os_prism' => 0.5,
     'os_prism_base' => 0,
+    'description' => 'campoNoMapeado1: valorCampo1; campoNoMapeado2: valorCampo2; campoNoMapeado3: valorCampo3;',
     'callback_url' => 'http://localhost.com/optretina-php-sdk/example/callback.php', // POST CALL when case is reported or rejected
     'images' => array(
         './images/2.jpg', //Local path
