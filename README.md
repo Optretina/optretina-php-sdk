@@ -34,7 +34,7 @@ The OAuth2 authorization method.
 
 ```
 #!bash
-curl -H 'Content-Type: application/json' -X POST -d '{"client_id": "XXXXX", "client_secret": "XXXX", grant_type="client_credentials"}' https://api.optretina.com/authorize
+curl -H 'Content-Type: application/json' -X POST -d '{"client_id": "XXXXX", "client_secret": "XXXX", "grant_type":"client_credentials"}' https://api.optretina.com/authorize
 
 ```
 ### Example with SDK
