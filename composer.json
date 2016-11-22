@@ -10,6 +10,11 @@
             "homepage": "http://www.optretina.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Optretina\\": "src/Optretina"
+        }
+    },
     "require": {
        "league/oauth2-client": "0.3.*"
     }
