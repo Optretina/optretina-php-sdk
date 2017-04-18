@@ -18,7 +18,6 @@ $response = $client->createCase([
     'history_number' => 31415,
     'first_name' => 'API Name',
     'last_name' => 'Last Name',
-    'secondary_last_name' => 'Third Name',
     'gender' => FEMALE, // 0: MALE, 1: FEMALE
     'age' => 30,
     'diabetes' => 1, // 0: no, 1: yes
