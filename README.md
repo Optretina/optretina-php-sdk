@@ -210,6 +210,7 @@ All notifications come in as a POST request.
 #!php
 $_POST['status'] contains the new status, could be "reported" or "reject"
 $_POST['caso'] contains the caso id.
+$_POST['derivation'] values normal, routine, preferential, urgent
 ```
 
 ## Getting Help
