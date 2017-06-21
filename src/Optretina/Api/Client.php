@@ -44,6 +44,13 @@ class Client
 
         return $response;
     }
+    
+    public function uploadImages($id, $data)
+    {
+        $response = $this->postRequest('/cases/'.$id.'/images', $data);
+
+        return $response;
+    }
 
     public function getReport($id)
     {
