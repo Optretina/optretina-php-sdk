@@ -45,6 +45,13 @@ class Client
         return $response;
     }
     
+    public function createCaseTopcon($data)
+    {
+        $response = $this->postRequest('/topcon/cases', $data);
+
+        return $response;
+    }
+    
     public function uploadImages($id, $data)
     {
         $response = $this->postRequest('/cases/'.$id.'/images', $data);
